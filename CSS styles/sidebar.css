@@ -1,0 +1,65 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+
+}
+
+.home_icon {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.explore_icon {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+.subscribtions_icon {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+}
+.originals_icon {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 230px;
+}
+.music_icon {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+.library_icon {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 370px;
+}
+
+.sidebar_link {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    cursor: pointer;
+}
+.sidebar_link:hover{
+    background-color:#f7f7f7;
+    transition: 0.15s;
+}
+.sidebar_link:active{
+    background-color: #ebe9e9;
+}
